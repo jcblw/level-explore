@@ -4,7 +4,7 @@
   "description": "A terminal program to visualize leveldb data",
   "main": "index.js",
   "scripts": {
-    "start": "node start.js --db ./.test",
+    "start": "./bin/level-explore --db ./.test",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
