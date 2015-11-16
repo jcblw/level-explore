@@ -1,9 +1,9 @@
 import levelup from 'levelup'
 
-import React, {Component, PropsTypes} from 'react'
+import React, {Component, PropTypes} from 'react'
 import Logger from './Logger'
 const propTypes = {
-  db: PropsTypes.string
+  db: PropTypes.string
 }
 
 class Screen extends Component {

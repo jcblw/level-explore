@@ -5,6 +5,9 @@ This is a app/cli tool to check out data inside of leveldb directory. It uses [R
 
 > This is very early stages
 
+![screenshot](https://github.com/jcblw/level-explore/blob/master/assets/screenshot-v0.0.2.png)
+
+
 ## Usage
 
     git clone https://github.com/jcblw/level-explore.git
