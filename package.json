@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./bin/level-explore --db ./.test",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "bin": {
     "level-explore": "bin/level-explore"
@@ -41,6 +41,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.1.20",
     "babel-plugin-transform-react-jsx": "^6.1.18",
     "babel-preset-stage-0": "^6.1.18",
+    "standard": "^5.3.1",
     "yargs": "^3.30.0"
   }
 }

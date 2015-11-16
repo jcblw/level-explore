@@ -1,7 +1,10 @@
 import levelup from 'levelup'
 
-import React, {Component} from 'react'
+import React, {Component, PropsTypes} from 'react'
 import Logger from './Logger'
+const propTypes = {
+  db: PropsTypes.string
+}
 
 class Screen extends Component {
 
@@ -58,6 +61,7 @@ class Screen extends Component {
   }
 
   render () {
+    const yes = true
     return (
       <box
         label='level explore'
@@ -73,9 +77,9 @@ class Screen extends Component {
           height='78%'
           rows={this.state.values}
           pad={5}
-          scrollable={true}
-          alwaysScroll={true}
-          mouse={true}
+          scrollable={yes}
+          alwaysScroll={yes}
+          mouse={yes}
           onSelect={this.onSelect}
         />
         <Logger logs={this.state.logs} />
@@ -83,5 +87,7 @@ class Screen extends Component {
     )
   }
 }
+
+Screen.propTypes = propTypes
 
 export default Screen

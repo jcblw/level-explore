@@ -14,6 +14,7 @@ class Logger extends Component {
   }
 
   render () {
+    const yes = true
     return <list
       label='logs'
       border={{type: 'line'}}
@@ -22,11 +23,11 @@ class Logger extends Component {
       left='1%'
       width='98%'
       height='18%'
-      interactive={true}
+      interactive={yes}
       items={this.props.logs}
-      scrollable={true}
-      alwaysScroll={true}
-      mouse={true}
+      scrollable={yes}
+      alwaysScroll={yes}
+      mouse={yes}
       ref='logs'
     />
   }
