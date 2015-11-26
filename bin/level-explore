@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-require('babel-core/register')
 var path = require('path')
 var argv = require('yargs').argv
 var dbpath = path.resolve(process.cwd(), argv.db)
-var levelExplore = require('../')
+// run a test to see if file is available
+// then include if not show error that app needs to be compiled first
+var levelExplore = require('../lib')
 
 levelExplore.start(dbpath)
