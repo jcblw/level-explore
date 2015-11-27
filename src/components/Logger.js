@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react'
+import LogContainer from './containers/Log'
 const propTypes = {
   logs: PropTypes.arrayOf(PropTypes.string)
 }
@@ -36,4 +37,4 @@ class Logger extends Component {
 Logger.propTypes = propTypes
 Logger.defaultProps = defaultProps
 
-export default Logger
+export default LogContainer(Logger)
