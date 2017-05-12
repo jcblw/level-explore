@@ -1,5 +1,7 @@
 # Level Explore
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jcblw/level-explore.svg)](https://greenkeeper.io/)
+
 This is a app/cli tool to check out data inside of leveldb directory. It uses [React](https://facebook.github.io/react/)
 [Blessed](https://www.npmjs.com/package/blessed) and [Levelup/Leveldown](https://www.npmjs.com/package/levelup)
 
